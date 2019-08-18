@@ -1,0 +1,171 @@
+08:05:07:755 [03100] | INFO  | Initializing crosire's ReShade version '4.3.0.562' (32-bit) built on '2019-05-25 18:58:54' loaded from "G:\EmulationStation\OPENGL32.dll" to "G:\EmulationStation\emulationstation.exe" ...
+08:05:07:872 [03100] | INFO  | Registering hooks for "user32.dll" ...
+08:05:07:872 [03100] | INFO  | > Libraries loaded.
+08:05:07:873 [03100] | INFO  | > Found 13 match(es). Installing ...
+08:05:07:897 [03100] | INFO  | Registering hooks for "ws2_32.dll" ...
+08:05:07:897 [03100] | INFO  | > Libraries loaded.
+08:05:07:897 [03100] | INFO  | > Found 8 match(es). Installing ...
+08:05:07:916 [03100] | INFO  | Registering hooks for "C:\WINDOWS\system32\d3d9.dll" ...
+08:05:07:916 [03100] | INFO  | > Delayed.
+08:05:07:916 [03100] | INFO  | Registering hooks for "C:\WINDOWS\system32\d3d10.dll" ...
+08:05:07:917 [03100] | INFO  | > Delayed.
+08:05:07:917 [03100] | INFO  | Registering hooks for "C:\WINDOWS\system32\d3d10_1.dll" ...
+08:05:07:917 [03100] | INFO  | > Delayed.
+08:05:07:917 [03100] | INFO  | Registering hooks for "C:\WINDOWS\system32\d3d11.dll" ...
+08:05:07:917 [03100] | INFO  | > Delayed.
+08:05:07:917 [03100] | INFO  | Registering hooks for "C:\WINDOWS\system32\d3d12.dll" ...
+08:05:07:917 [03100] | INFO  | > Delayed.
+08:05:07:917 [03100] | INFO  | Registering hooks for "C:\WINDOWS\system32\dxgi.dll" ...
+08:05:07:917 [03100] | INFO  | > Delayed.
+08:05:07:917 [03100] | INFO  | Registering hooks for "C:\WINDOWS\system32\opengl32.dll" ...
+08:05:07:917 [03100] | INFO  | > Delayed until first call to an exported function.
+08:05:07:917 [03100] | INFO  | Initialized.
+08:05:08:050 [03100] | INFO  | Redirecting RegisterClassExW(007DF4C0 { SDL_app }) ...
+08:05:08:050 [03100] | INFO  | > Adding 'CS_OWNDC' window class style flag to 'SDL_app'.
+08:05:08:057 [03100] | INFO  | Redirecting wglChoosePixelFormat(AA010C85, 007DF490) ...
+08:05:08:057 [03100] | INFO  | > Dumping pixel format descriptor:
+08:05:08:057 [03100] | INFO  |   +-----------------------------------------+-----------------------------------------+
+08:05:08:057 [03100] | INFO  |   | Name                                    | Value                                   |
+08:05:08:057 [03100] | INFO  |   +-----------------------------------------+-----------------------------------------+
+08:05:08:057 [03100] | INFO  |   | Flags                                   | 0x25                                    |
+08:05:08:057 [03100] | INFO  |   | ColorBits                               | 24                                      |
+08:05:08:057 [03100] | INFO  |   | DepthBits                               | 16                                      |
+08:05:08:057 [03100] | INFO  |   | StencilBits                             | 0                                       |
+08:05:08:057 [03100] | INFO  |   +-----------------------------------------+-----------------------------------------+
+08:05:08:060 [03100] | INFO  | Installing export hooks for "C:\WINDOWS\system32\opengl32.dll" ...
+08:05:08:060 [03100] | INFO  | > Found 360 match(es). Installing ...
+08:05:08:426 [03100] | INFO  | > Returned format: 9
+08:05:08:426 [03100] | INFO  | Redirecting wglSetPixelFormat(AA010C85, 9, 007DF490) ...
+08:05:08:427 [03100] | INFO  | Redirecting wglCreateContext(AA010C85) ...
+08:05:08:427 [03100] | INFO  | > Passing on to wglCreateLayerContext ...
+08:05:08:427 [03100] | INFO  | Redirecting wglCreateLayerContext(AA010C85, 0) ...
+08:05:08:427 [03100] | INFO  | > Returning OpenGL context 00010000.
+08:05:10:172 [03100] | INFO  | Redirecting wglDeleteContext(00010000) ...
+08:05:10:172 [03100] | INFO  | > Cleaning up runtime 036D94E8 ...
+08:05:10:178 [03100] | INFO  | Redirecting wglChoosePixelFormat(DC011752, 007DF320) ...
+08:05:10:178 [03100] | INFO  | > Dumping pixel format descriptor:
+08:05:10:178 [03100] | INFO  |   +-----------------------------------------+-----------------------------------------+
+08:05:10:178 [03100] | INFO  |   | Name                                    | Value                                   |
+08:05:10:178 [03100] | INFO  |   +-----------------------------------------+-----------------------------------------+
+08:05:10:178 [03100] | INFO  |   | Flags                                   | 0x25                                    |
+08:05:10:178 [03100] | INFO  |   | ColorBits                               | 24                                      |
+08:05:10:178 [03100] | INFO  |   | DepthBits                               | 16                                      |
+08:05:10:178 [03100] | INFO  |   | StencilBits                             | 0                                       |
+08:05:10:178 [03100] | INFO  |   +-----------------------------------------+-----------------------------------------+
+08:05:10:186 [03100] | INFO  | > Returned format: 9
+08:05:10:186 [03100] | INFO  | Redirecting wglSetPixelFormat(DC011752, 9, 007DF320) ...
+08:05:10:186 [03100] | INFO  | Redirecting wglCreateContext(DC011752) ...
+08:05:10:186 [03100] | INFO  | > Passing on to wglCreateLayerContext ...
+08:05:10:186 [03100] | INFO  | Redirecting wglCreateLayerContext(DC011752, 0) ...
+08:05:10:187 [03100] | INFO  | > Returning OpenGL context 00020000.
+08:05:10:726 [03100] | INFO  | Redirecting wglChoosePixelFormatARB(DC011752, 007DF370, 007DF4A4, 1, 007DF34C, 007DF348) ...
+08:05:10:726 [03100] | INFO  | > Dumping attributes:
+08:05:10:726 [03100] | INFO  |   +-----------------------------------------+-----------------------------------------+
+08:05:10:726 [03100] | INFO  |   | Attribute                               | Value                                   |
+08:05:10:726 [03100] | INFO  |   +-----------------------------------------+-----------------------------------------+
+08:05:10:726 [03100] | INFO  |   | WGL_DRAW_TO_WINDOW_ARB                  | TRUE                                    |
+08:05:10:726 [03100] | INFO  |   | WGL_RED_BITS_ARB                        | 8                                       |
+08:05:10:726 [03100] | INFO  |   | WGL_GREEN_BITS_ARB                      | 8                                       |
+08:05:10:726 [03100] | INFO  |   | WGL_BLUE_BITS_ARB                       | 8                                       |
+08:05:10:726 [03100] | INFO  |   | WGL_DOUBLE_BUFFER_ARB                   | TRUE                                    |
+08:05:10:726 [03100] | INFO  |   | WGL_DEPTH_BITS_ARB                      | 16                                      |
+08:05:10:726 [03100] | INFO  |   | WGL_ACCELERATION_ARB                    | 0x2027                                  |
+08:05:10:726 [03100] | INFO  |   +-----------------------------------------+-----------------------------------------+
+08:05:10:750 [03100] | INFO  | > Returned format(s): 9
+08:05:10:750 [03100] | INFO  | Redirecting wglDeleteContext(00020000) ...
+08:05:10:750 [03100] | INFO  | > Cleaning up runtime 0369CE20 ...
+08:05:10:753 [03100] | INFO  | Redirecting wglSetPixelFormat(BE010C85, 9, 007DF470) ...
+08:05:10:793 [03100] | INFO  | Redirecting wglCreateContext(BE010C85) ...
+08:05:10:793 [03100] | INFO  | > Passing on to wglCreateLayerContext ...
+08:05:10:793 [03100] | INFO  | Redirecting wglCreateLayerContext(BE010C85, 0) ...
+08:05:10:795 [03100] | INFO  | > Returning OpenGL context 00030000.
+08:05:11:456 [03100] | INFO  | Redirecting RegisterClassW(007DF674 { SDLHelperWindowInputCatcher }) ...
+08:05:11:456 [03100] | INFO  | > Adding 'CS_OWNDC' window class style flag to 'SDLHelperWindowInputCatcher'.
+08:05:11:462 [03100] | WARN  | Ignoring LoadLibrary("HID.DLL") call to avoid possible deadlock.
+08:05:11:462 [03100] | WARN  | Ignoring LoadLibrary("SETUPAPI.DLL") call to avoid possible deadlock.
+08:05:11:462 [03100] | WARN  | Ignoring LoadLibrary("WINMM.DLL") call to avoid possible deadlock.
+08:05:11:462 [03100] | WARN  | Ignoring LoadLibrary("USER32.DLL") call to avoid possible deadlock.
+08:05:11:685 [05912] | INFO  | Redirecting RegisterClassExW(045DFED4 { Message }) ...
+08:05:11:685 [05912] | INFO  | > Adding 'CS_OWNDC' window class style flag to 'Message'.
+08:05:11:721 [03100] | INFO  | Resizing runtime 0369B548 on device context BE010C85 to 1440x900 ...
+08:05:11:725 [03100] | INFO  | Recreated runtime environment on runtime 0369B548.
+08:05:11:740 [02388] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Border.fx".
+08:05:11:740 [03428] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Cartoon.fx".
+08:05:11:741 [15076] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\AdaptiveFog.fx".
+08:05:11:745 [09236] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Chromakey.fx".
+08:05:11:745 [08952] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\3DFX.fx".
+08:05:11:746 [15064] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\ChromaticAberration.fx".
+08:05:11:746 [05504] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\ASCII.fx".
+08:05:11:749 [03568] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\ColorMatrix.fx".
+08:05:11:753 [10492] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Colourfulness.fx".
+08:05:11:754 [04568] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\AdaptiveSharpen.fx".
+08:05:11:755 [15088] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Bloom.fx".
+08:05:11:755 [09600] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Daltonize.fx".
+08:05:11:755 [06752] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\AmbientLight.fx".
+08:05:11:758 [01224] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Curves.fx".
+08:05:11:758 [02828] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Deband.fx".
+08:05:11:760 [09924] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Denoise.fx".
+08:05:11:762 [04444] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\CRT.fx".
+08:05:11:762 [10124] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\DepthHaze.fx".
+08:05:11:765 [13668] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\DisplayDepth.fx".
+08:05:11:766 [04224] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Clarity.fx".
+08:05:11:766 [11452] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\DPX.fx".
+08:05:11:770 [11968] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Emphasize.fx".
+08:05:11:770 [06880] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\CinematicDOF.fx".
+08:05:11:772 [00396] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\EyeAdaption.fx".
+08:05:11:772 [14160] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\FakeMotionBlur.fx".
+08:05:11:773 [12824] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\FakeHDR.fx".
+08:05:11:774 [07144] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\FilmGrain.fx".
+08:05:11:777 [08428] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\FilmGrain2.fx".
+08:05:11:777 [13764] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\FilmicAnamorphSharpen.fx".
+08:05:11:780 [08936] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\FilmicPass.fx".
+08:05:11:782 [09736] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Depth3D.fx".
+08:05:11:783 [06180] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\FineSharp.fx".
+08:05:11:787 [08036] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\DOF.fx".
+08:05:11:787 [04296] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\HighPassSharpen.fx".
+08:05:11:789 [08720] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\GaussianBlur.fx".
+08:05:11:791 [12332] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Glitch.fx".
+08:05:11:791 [13132] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Levels.fx".
+08:05:11:791 [07460] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\HSLShift.fx".
+08:05:11:791 [10628] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Layer.fx".
+08:05:11:792 [03676] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\LiftGammaGain.fx".
+08:05:11:792 [03844] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\HQ4X.fx".
+08:05:11:795 [07676] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\LUT.fx".
+08:05:11:796 [09392] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\LevelsPlus.fx".
+08:05:11:796 [01796] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\LumaSharpen.fx".
+08:05:11:796 [02260] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Monochrome.fx".
+08:05:11:797 [14020] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\LightDoF.fx".
+08:05:11:800 [14544] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\MultiLUT.fx".
+08:05:11:801 [02832] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\NightVision.fx".
+08:05:11:801 [07188] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\FXAA.fx".
+08:05:11:801 [14168] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\MagicBloom.fx".
+08:05:11:804 [10404] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\PerfectPerspective.fx".
+08:05:11:804 [09516] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\PPFX_Godrays.fx".
+08:05:11:806 [06776] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\PPFX_Bloom.fx".
+08:05:11:808 [14984] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Prism.fx".
+08:05:11:809 [05416] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Sepia.fx".
+08:05:11:812 [14384] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Nostalgia.fx".
+08:05:11:813 [09048] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\PPFX_SSDO.fx".
+08:05:11:813 [10580] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\StageDepth.fx".
+08:05:11:815 [01672] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\MXAO.fx".
+08:05:11:816 [05312] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Technicolor.fx".
+08:05:11:816 [07996] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\ReflectiveBumpMapping.fx".
+08:05:11:817 [07572] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Splitscreen.fx".
+08:05:11:818 [02416] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Technicolor2.fx".
+08:05:11:819 [09104] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Tonemap.fx".
+08:05:11:820 [14604] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\TiltShift.fx".
+08:05:11:822 [02068] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\TriDither.fx".
+08:05:11:824 [14464] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\UIDetect.fx".
+08:05:11:824 [05188] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\UIMask.fx".
+08:05:11:824 [13580] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\SurfaceBlur.fx".
+08:05:11:825 [07504] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Vibrance.fx".
+08:05:11:827 [05748] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\Vignette.fx".
+08:05:11:831 [01768] | INFO  | Successfully loaded "G:\EmulationStation\reshade\Shaders\SMAA.fx".
+08:05:11:934 [03100] | INFO  | Loading image files for textures ...
+08:06:14:792 [03100] | INFO  | Saving screenshot to G:\EmulationStation\.\reshade\Screenshots\emulationstation 2019-08-18 08-06-14.png ...
+08:24:38:612 [03100] | INFO  | Redirecting wglDeleteContext(00030000) ...
+08:24:38:612 [03100] | INFO  | > Cleaning up runtime 0369B548 ...
+08:24:38:615 [03100] | INFO  | Destroyed runtime environment on runtime 0369B548.
+08:24:38:877 [03100] | INFO  | Exiting ...
+08:24:38:877 [03100] | INFO  | Uninstalling 431 hook(s) ...
+08:24:38:897 [03100] | INFO  | Exited.

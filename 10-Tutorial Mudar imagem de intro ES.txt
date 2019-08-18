@@ -1,0 +1,1 @@
+Copie uma imagem da pasta "Outras Intros ES ( Splash's )" para a pasta "resources" e a renomei para Splash

@@ -1,0 +1,3 @@
+O video que estiver com o nome "Startup.mp4" sera o que abrira na inicialização do ES.
+
+Pode acrescentar qualquer video a gosto!

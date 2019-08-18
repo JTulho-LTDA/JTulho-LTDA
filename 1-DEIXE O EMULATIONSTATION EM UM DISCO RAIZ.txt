@@ -1,0 +1,9 @@
+Exemplos 
+
+C:\EmulationStation\emulationstation.exe
+
+G:\EmulationStation\emulationstation.exe
+
+D:\EmulationStation\emulationstation.exe
+
+e por ai vai...

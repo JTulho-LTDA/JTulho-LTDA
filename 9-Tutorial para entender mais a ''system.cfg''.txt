@@ -1,0 +1,31 @@
+<system>
+<!-- Um apelido, usado internamente para identificar o sistema. Use letras minúsculas. -->
+<name>apelido</name>
+
+<!-- Nome do sistema por extenso. Será usado nos menus. -->
+<fullname>descrição Completa</fullname>
+
+<!-- Caminho para as roms. '~' = à variável $HOME no Linux ou %HOMEPATH% no Windows. -->
+<path>caminho/roms</path>
+
+<!-- Extensão das roms, separadas por espaço ou vírgula. 
+Você DEVE incluir o ponto antes da extensão. Ela é case sensitive - diferencia maiúscula de minúsculas. -->
+<extension>.ext</extension>
+
+<!-- Linha de comando a ser executada quando um jogo é selecionado. Algumas tags especiais podem ser usadas: 
+%ROM% será substituído pelo caminho completo da rom. Virá delimitado por aspas. 
+%BASENAME% será susbstituído pelo nome da rom sem a extensão of the ROM. Útil para alguns emuladores. 
+%ROM_RAW% substituído pelo caminho completo da rom sem estar delimitado por aspas. 
+Deve-se indicar o caminho+executável - exemplo: c:\emulador\emu.exe. -->
+<command>emulador.exe %tag%</command>
+
+<!-- O nome da plataforma quando for procurar por informações sobre o sistema. Veja a lista completa de plataformas em src/PlatformIds.cpp.
+O nome é case sensitive, mas deve-se usar letras minúsculas. Esta tag é opcional. 
+Você pode indicar multiplas platformas separadas por espaço ou vírgula - exemplo: "genesis, megadrive" -->
+<platform>nome_sistema</platform>
+
+<!-- O tema a ser carregado do conjunto de temas existentes. Veja o arquivo THEMES.md para mais informações. 
+Esta tag é opcional. Se não for definida será usado o valor da tag <name>. -->
+<theme>nome_tema</theme>
+</system>
+</systemList>

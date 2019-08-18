@@ -1,0 +1,9 @@
+Vá até a pasta "ferramentas\Controle e teclado\Emulatorexit" . 
+
+Lá  edite o arquivo "run.bat" para adicionar os emuladores que você quer fechar.
+
+
+Obs: - O arquivo "run.bat" tem que estar na mesma pasta do executável "Emulatorexit.exe".
+
+
+LEMBRE-SE... APERTE "SELECT" + "START" DO CONTROLE 1 DE XBOX PARA EXECUTAR O BATCH. E assim fechar os emulador listado em "run.bat" .
